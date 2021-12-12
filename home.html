@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+  </head>
+  <div class="navbar">
+    <div class="navitem">
+      <a href="#">Home</a>
+    </div>
+    <div class="navitem">
+      <a href="contactus.html">Contact Us</a>
+    </div>
+    <div class="navitem">
+      Products and Services
+    </div>
+  </div>
+  </header>
+  <body>
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Speed Studios</h2>
+        <p>
+          Welcome to Speed Studios! Here you will find our best service. We offer our knowledge of game development to others who don't know it. 
+          Unity is the main software we as developers use, so we offer lessons on it. We hope you can find what you are looking for!
+        </p>
+      </div>
+
+      <div class="sidebar-one">
+        <img class="logo" src="https://cdn.glitch.me/cb789b45-3e4e-4384-b48b-ba58c898cdf8%2FSpeed%20Studios%20Logo%20black%20text.png?v=1639152369151">
+        <ul>
+          <li>Game Development</li>
+          <br>
+          <li>Unity Development Lessons</li>
+          <br>
+          <li>Games</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Get Free Lessons!</h4>
+        <p>
+          Get free year of unity lessons!
+        </p>
+        <button>
+          Learn More
+        </button>
+      </div>
+
+      <div class="call-out">
+        <h4>10% off First Purchase!</h4>
+        <p>
+          Get 10% off your first purchase with us!
+        </p>
+        <button>
+          Learn More
+        </button>
+      </div>
+    </div>
+     <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
+  </body>
+</html>
